@@ -1,0 +1,8 @@
+header {
+  a {
+    @include style-text(12px, 500, $color-blue-1 !important);
+    &:hover {
+      color: $color-blue-2 !important;
+    }
+  }
+}
