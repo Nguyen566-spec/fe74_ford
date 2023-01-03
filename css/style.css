@@ -1,0 +1,13 @@
+* {
+  padding: 0;
+  max-width: 1440px;
+}
+
+header a {
+  font-size: 12px;
+  font-weight: 500;
+  color: #00095b !important;
+}
+header a:hover {
+  color: #1700f4 !important;
+}/*# sourceMappingURL=style.css.map */
