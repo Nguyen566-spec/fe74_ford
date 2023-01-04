@@ -39,4 +39,53 @@ header a:hover {
 #carousel .carousel-caption a span:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+#perceptions {
+  padding: 6rem 0;
+}
+
+#shop img {
+  cursor: pointer;
+}
+
+#bronco {
+  padding-top: 6rem;
+}
+
+.title {
+  padding-top: 2rem;
+}
+.title h1 {
+  color: #00095b;
+}
+.title p {
+  font-size: 24px;
+}
+
+.btn {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  border-radius: 3rem;
+  transition: all 0.5s;
+}
+.btn:hover {
+  transform: scale(1.1);
+  color: #fff;
+}
+
+.btn--blue {
+  background-color: #00095b;
+  transition: all 0.5s;
+}
+.btn--blue:hover {
+  background-color: #1700f4;
+}
+
+.btn--shadow {
+  transition: all 0.5s;
+}
+.btn--shadow:hover {
+  box-shadow: 0 5px 10px #00095b;
 }/*# sourceMappingURL=style.css.map */
