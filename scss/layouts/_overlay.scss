@@ -1,0 +1,20 @@
+#overlay {
+  margin-top: $s-1;
+  .card {
+    margin: 2rem;
+    .card-img-overlay {
+      color: $color-blue-1;
+      top: 2rem;
+      left: 1rem;
+      p {
+        font-size: 20px;
+      }
+      a {
+        cursor: pointer;
+        &:hover {
+          color: $color-blue-2;
+        }
+      }
+    }
+  }
+}
