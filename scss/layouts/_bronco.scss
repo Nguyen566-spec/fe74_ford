@@ -1,3 +1,22 @@
 #bronco {
-  padding-top: 6rem;
+  ul {
+    margin-top: $s-1;
+    border: 1px solid $color-blue-1;
+    width: fit-content;
+    margin: 6rem auto;
+    border-radius: 50px;
+    li {
+      button {
+        padding: 0.5rem 2rem;
+        transform: scale(1.1);
+        &.active {
+          background-color: $color-blue-1;
+        }
+        border-radius: 50px;
+      }
+    }
+  }
+  .tab-content {
+    margin-top: $s-1;
+  }
 }

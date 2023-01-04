@@ -333,7 +333,7 @@
             class="active"
           ></li>
           <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <!-- <li data-target="#carouselExampleCaptions" data-slide-to="2"></li> -->
         </ol>
         <button
           class="carousel-control-next"
@@ -373,25 +373,23 @@
               ></a>
             </div>
           </div>
-          <div class="carousel-item">
+          <!-- <div class="carousel-item">
             <img
               src="./images/carousel-3.jpg"
               class="d-block w-100"
               alt="..."
             />
-          </div>
+          </div> -->
         </div>
       </div>
     </section>
     <section id="perceptions">
-      <img src="./images/perceptions-1.jpg" alt="" />
+      <img src="./images/perceptions-1.jpg" class="w-100" alt="" />
       <div class="title text-center">
         <h1>Change Perceptions</h1>
         <p>See how Ford electric vehicles fit into your life.</p>
         <br />
-        <button class="btn btn--blue btn--shadow px-5">
-          Ford EV Living
-        </button>
+        <button class="btn btn--blue btn--shadow px-5">Ford EV Living</button>
       </div>
     </section>
     <section id="shop">
@@ -423,21 +421,120 @@
       </div>
     </section>
     <section id="bronco">
-      <ul class="nav nav-pills justify-content-center mb-3" id="pills-tab" role="tablist">
+      <ul
+        class="nav nav-pills justify-content-center mb-3"
+        id="pills-tab"
+        role="tablist"
+      >
         <li class="nav-item" role="presentation">
-          <button class="btn btn--blue active" id="pills-home-tab" data-toggle="pill" data-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+          <button
+            class="nav-link active"
+            id="pills-home-tab"
+            data-toggle="pill"
+            data-target="#pills-home"
+            type="button"
+            role="tab"
+            aria-controls="pills-home"
+            aria-selected="true"
+          >
+            Ford Bronco SUVs
+          </button>
         </li>
+        <span class="font-weight-lighter">|</span>
         <li class="nav-item" role="presentation">
-          <button class="btn btn--blue" id="pills-profile-tab" data-toggle="pill" data-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+          <button
+            class="nav-link"
+            id="pills-profile-tab"
+            data-toggle="pill"
+            data-target="#pills-profile"
+            type="button"
+            role="tab"
+            aria-controls="pills-profile"
+            aria-selected="false"
+          >
+            Ford F-150 Trucks
+          </button>
         </li>
+        <span class="font-weight-lighter">|</span>
         <li class="nav-item" role="presentation">
-          <button class="btn btn--blue" id="pills-contact-tab" data-toggle="pill" data-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+          <button
+            class="nav-link"
+            id="pills-contact-tab"
+            data-toggle="pill"
+            data-target="#pills-contact"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Ford Mustang
+          </button>
         </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab"><img src="./images/bronco-1.jpg" alt=""></div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab"><img src="./images/bronco-2.jpg" alt=""></div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab"><img src="./images/bronco-3.jpg" alt=""></div>
+        <div
+          class="tab-pane fade show active"
+          id="pills-home"
+          role="tabpanel"
+          aria-labelledby="pills-home-tab"
+        >
+          <img src="./images/bronco-1.jpg" width="100%" alt="" />
+          <div class="title text-center">
+            <h1>Ford Bronco® SUVs</h1>
+            <p>Discover which Bronco can reunite you with adventure.</p>
+            <br />
+            <button class="btn btn--blue btn--shadow px-5">
+              Find Your Bronco
+            </button>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-profile"
+          role="tabpanel"
+          aria-labelledby="pills-profile-tab"
+        >
+          <img src="./images/bronco-2.jpg" width="100%" alt="" />
+          <div class="title text-center">
+            <h1>Ford F-150® Trucks</h1>
+            <p>Discover the power and capabilities behind the badge.</p>
+            <br />
+            <button class="btn btn--blue btn--shadow px-5">
+              Find Your Truck
+            </button>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-contact"
+          role="tabpanel"
+          aria-labelledby="pills-contact-tab"
+        >
+          <img src="./images/bronco-3.jpg" width="100%" alt="" />
+          <div class="title text-center">
+            <h1>Ford Mustang®</h1>
+            <p>
+              Find uncompromised power and spirit in every model of an icon.
+            </p>
+            <br />
+            <button class="btn btn--blue btn--shadow px-5">
+              Find Your Mustang
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="overlay">
+      <div class="card border-0 bg-dark">
+        <img src="./images/overlay-1.jpg" class="card-img" alt="..." />
+        <div class="card-img-overlay">
+          <h1 class="card-title">Find Your Ford</h1>
+          <p class="card-text">See our full lineup of vehicles.</p>
+          <a
+            ><span class="h5">All vehicles</span
+            > <i class="fa-solid fa-circle-chevron-right"></i
+          ></a>
+        </div>
       </div>
     </section>
     <script

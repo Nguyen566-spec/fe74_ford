@@ -3,18 +3,26 @@
     width: $fs-1;
     height: $fs-1;
     top: 83%;
-    left: 43%;
+    left: 45%;
     z-index: 20;
   }
   .carousel-control-next {
     width: $fs-1;
     height: $fs-1;
     top: 83%;
-    right: 43%;
+    right: 45%;
     z-index: 20;
   }
   ol {
     bottom: 10%;
+    width: 12%;
+    margin: auto;
+    height: 10%;
+    border-radius: 50px;
+    background-color: rgba(0,20,46,0.7);
+    li {
+      margin-top: 10%;
+    }
   }
   .carousel-caption {
     text-align: start;

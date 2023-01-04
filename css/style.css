@@ -16,18 +16,26 @@ header a:hover {
   width: 20px;
   height: 20px;
   top: 83%;
-  left: 43%;
+  left: 45%;
   z-index: 20;
 }
 #carousel .carousel-control-next {
   width: 20px;
   height: 20px;
   top: 83%;
-  right: 43%;
+  right: 45%;
   z-index: 20;
 }
 #carousel ol {
   bottom: 10%;
+  width: 12%;
+  margin: auto;
+  height: 10%;
+  border-radius: 50px;
+  background-color: rgba(0, 20, 46, 0.7);
+}
+#carousel ol li {
+  margin-top: 10%;
 }
 #carousel .carousel-caption {
   text-align: start;
@@ -49,8 +57,46 @@ header a:hover {
   cursor: pointer;
 }
 
-#bronco {
-  padding-top: 6rem;
+#bronco ul {
+  margin-top: 6rem;
+  border: 1px solid #00095b;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 6rem auto;
+  border-radius: 50px;
+}
+#bronco ul li button {
+  padding: 0.5rem 2rem;
+  transform: scale(1.1);
+  border-radius: 50px;
+}
+#bronco ul li button.active {
+  background-color: #00095b;
+}
+#bronco .tab-content {
+  margin-top: 6rem;
+}
+
+#overlay {
+  margin-top: 6rem;
+}
+#overlay .card {
+  margin: 2rem;
+}
+#overlay .card .card-img-overlay {
+  color: #00095b;
+  top: 2rem;
+  left: 1rem;
+}
+#overlay .card .card-img-overlay p {
+  font-size: 20px;
+}
+#overlay .card .card-img-overlay a {
+  cursor: pointer;
+}
+#overlay .card .card-img-overlay a:hover {
+  color: #1700f4;
 }
 
 .title {
