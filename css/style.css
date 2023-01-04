@@ -16,18 +16,26 @@ header a:hover {
   width: 20px;
   height: 20px;
   top: 83%;
-  left: 43%;
+  left: 45%;
   z-index: 20;
 }
 #carousel .carousel-control-next {
   width: 20px;
   height: 20px;
   top: 83%;
-  right: 43%;
+  right: 45%;
   z-index: 20;
 }
 #carousel ol {
   bottom: 10%;
+  width: 12%;
+  margin: auto;
+  height: 10%;
+  border-radius: 50px;
+  background-color: rgba(0, 20, 46, 0.7);
+}
+#carousel ol li {
+  margin-top: 10%;
 }
 #carousel .carousel-caption {
   text-align: start;
